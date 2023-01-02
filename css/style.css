@@ -7,8 +7,10 @@
 body {
   font-family: "Kumbh Sans", sans-serif;
   padding: 30px;
+  background: url(../images/bg-pattern-bottom.svg) bottom -600px right -150px
+      no-repeat,
+    url(../images/bg-pattern-top.svg) top -500px left -200px no-repeat;
   background-color: #19a2ae;
-  /* background-image: url(../images/bg-pattern-top.svg); */
 }
 
 main {
