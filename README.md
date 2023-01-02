@@ -25,6 +25,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - Absolutely positioned elements without offsetting will not be initially placed to its nearest positioned ancestor.
 
+- Offset percentage values for Absolutely positioned elements doesn't work responsively when container width changes.
+
 ### Continued development
 
 - How do I make absolutely positioned elements responsive?

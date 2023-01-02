@@ -29,21 +29,19 @@ main {
   border-radius: 15px;
   overflow: hidden;
   position: relative;
+  text-align: center;
 }
 
 .img-bg-card {
   width: 100%;
   display: block;
-  margin-bottom: 4.5rem;
 }
 
 .img-profile {
-  position: absolute;
-  top: 36.3%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%);
   border-radius: 50%;
   border: 5px solid #ffffff;
+  margin-bottom: -40px;
 }
 
 .profile {
@@ -101,4 +99,28 @@ main {
   letter-spacing: 1.5px;
   color: #6b7082;
   align-self: center;
+}
+
+/* ***********************
+Safari gap fix
+*********************** */
+
+.no-flexbox-gap .card {
+  margin-bottom: 20px;
+}
+
+.no-flexbox-gap .name {
+  margin-right: 8.5px;
+}
+
+.no-flexbox-gap .followers {
+  margin-right: 46px;
+}
+
+.no-flexbox-gap .likes {
+  margin-right: 46px;
+}
+
+.no-flexbox-gap .stats-num {
+  margin-bottom: 9px;
 }
