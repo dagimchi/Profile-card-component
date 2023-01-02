@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  padding: 30px;
+  background-color: #19a2ae;
+  /* background-image: url(../images/bg-pattern-top.svg); */
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  max-width: 21.875rem;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 50px 100px -20px #08465e81;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-bg-card {
+  width: 100%;
+  display: block;
+  margin-bottom: 4.5rem;
+}
+
+.img-profile {
+  position: absolute;
+  top: 36.3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+
+.profile {
+  display: flex;
+  gap: 8.5px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.name {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #2e3349;
+}
+
+.age {
+  font-size: 1.125rem;
+  color: #6b7082;
+}
+
+.city {
+  font-size: 0.875rem;
+  color: #6b7082;
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.stats {
+  display: flex;
+  gap: 46px;
+  padding-top: 24px;
+  border-top: 1px solid #e8e9ec;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.6875rem;
+}
+
+.followers,
+.likes,
+.photos {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.stats-num {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #2e3349;
+  align-self: center;
+}
+.stats-title {
+  font-size: 0.625rem;
+  letter-spacing: 1.5px;
+  color: #6b7082;
+  align-self: center;
+}
